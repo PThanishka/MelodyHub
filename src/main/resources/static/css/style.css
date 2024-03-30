@@ -1,0 +1,105 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, table, tr, td {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+}
+
+/* Styling for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    margin-top:30px;
+    color:red;
+    text-decoration:underline double;
+    text-decoration-thickness:2px;
+}
+
+/* Styling for links */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for forms and form elements */
+form {
+	margin-top:40px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for tables */
+table {
+    width: 700px;
+    border-collapse: collapse;
+    margin-top:40px;
+    margin-bottom: 20px;
+    margin-left:40px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Styling for audio controls */
+audio {
+    width: 400px;
+}
+
+/* Styling for success and failure messages */
+h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Styling for buttons */
+.buy-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
